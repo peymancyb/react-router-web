@@ -5,8 +5,18 @@ import {
   Route,
   Link,
   Switch} from 'react-router-dom';
-  import { Nav, NavItem, NavLink } from 'reactstrap';
-
+  import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem } from 'reactstrap';
 
 
 const Home = ()=>{
